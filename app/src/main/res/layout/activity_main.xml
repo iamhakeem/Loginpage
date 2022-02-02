@@ -38,14 +38,22 @@
                         android:id="@+id/et_Email"
                         android:hint="@string/Email"
                         android:textColor="@color/black"
+<<<<<<< HEAD
                         android:textColorHint="A7999C"
+=======
+                        android:textColorHint="@color/black"
+>>>>>>> 08089ec (fixed a little bug)
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
                 <EditText
                         android:id="@+id/et_password"
                         android:hint="@string/password"
                         android:textColor="@color/black"
+<<<<<<< HEAD
                         android:textColorHint="A7999C"
+=======
+                        android:textColorHint="@color/black"
+>>>>>>> 08089ec (fixed a little bug)
                         android:inputType="textPassword"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"/>
