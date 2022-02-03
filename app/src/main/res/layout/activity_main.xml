@@ -20,7 +20,7 @@
                         android:padding="18dp"
                         android:layout_height="90dp"
                         android:background="@color/white"
-                        android:src="@mipmap/lady"
+                        android:src="@drawable/lady"
                         tools:ignore="ContentDescription"/>
 
                 <Space android:layout_width="wrap_content"
