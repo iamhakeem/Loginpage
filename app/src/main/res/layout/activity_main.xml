@@ -5,6 +5,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity">
+
         <LinearLayout
                 android:id="@+id/ll_main_layout"
                 android:layout_width="match_parent"
@@ -15,12 +16,13 @@
                 android:orientation="vertical"
                 tools:layout_editor_absoluteY="0dp"
                 tools:layout_editor_absoluteX="125dp">
+
                 <ImageView
                         android:layout_width="90dp"
                         android:padding="18dp"
                         android:layout_height="90dp"
                         android:background="@color/white"
-                        android:src="@drawable/lady"
+
                         tools:ignore="ContentDescription"/>
 
                 <Space android:layout_width="wrap_content"
@@ -38,22 +40,19 @@
                         android:id="@+id/et_Email"
                         android:hint="@string/Email"
                         android:textColor="@color/black"
-<<<<<<< HEAD
-                        android:textColorHint="A7999C"
-=======
+                        android:drawableStart="@drawable/Email"
+                        android:drawablePadding="10dp"
                         android:textColorHint="@color/black"
->>>>>>> 08089ec (fixed a little bug)
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
                 <EditText
                         android:id="@+id/et_password"
                         android:hint="@string/password"
                         android:textColor="@color/black"
-<<<<<<< HEAD
-                        android:textColorHint="A7999C"
-=======
                         android:textColorHint="@color/black"
->>>>>>> 08089ec (fixed a little bug)
+                        android:layout_marginTop="20dp"
+                        android:drawableStart="@drawable/Password"
+                        android:drawablePadding="10dp"
                         android:inputType="textPassword"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"/>
@@ -65,12 +64,24 @@
                         android:orientation="horizontal">
 
                         <Button
-                                android:id="@+id/btn_submit"
+                                android:id="@+id/btn_login"
                                 android:text="@string/login"
                                 android:textAllCaps="false"
-                                android:layout_width="wrap_content"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"/>
+
                 </LinearLayout>
+
+                <Space android:layout_width="wrap_content"
+                       android:layout_height="40dp"/>
+
+                <ProgressBar
+                        android:id="@+id/progressBar1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:visibility="gone"/>
+
         </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
